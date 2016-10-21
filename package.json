@@ -1,0 +1,25 @@
+{
+  "name": "kiosk-mode-browser",
+  "version": "1.0.0",
+  "description": "A minimal kiosk mode browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/keitalab/kiosk-mode-browser",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "kwzr",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "config": {
+    "url": "http://127.0.0.1"
+  }
+}
