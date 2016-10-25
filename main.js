@@ -5,7 +5,7 @@ const BrowserWindow = electron.BrowserWindow
 let mainWindow
 
 const createWindow = () => {
-  mainWindow = new BrowserWindow({width: 800, height: 600, kiosk: true})
+  mainWindow = new BrowserWindow({width: 800, height: 600, kiosk: true, webPreferences: {zoomFactor: parseFloat(process.env.npm_package_config_zoom)}})
 
   mainWindow.loadURL(process.env.npm_package_config_url)
   mainWindow.webContents.on('did-fail-load', () => {
