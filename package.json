@@ -17,7 +17,7 @@
   "author": "kwzr",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^1.4.1"
+    "electron": "^9.1.0"
   },
   "config": {
     "url": "http://127.0.0.1",
